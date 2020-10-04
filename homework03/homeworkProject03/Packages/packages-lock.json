@@ -1,5 +1,20 @@
 {
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+>>>>>>> homework02
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -9,7 +24,11 @@
     },
     "com.unity.ext.nunit": {
       "version": "1.0.0",
+<<<<<<< HEAD
       "depth": 1,
+=======
+      "depth": 0,
+>>>>>>> homework02
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
@@ -23,6 +42,16 @@
       },
       "url": "https://packages.unity.cn"
     },
+<<<<<<< HEAD
+=======
+    "com.unity.ide.visualstudio": {
+      "version": "1.0.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+>>>>>>> homework02
     "com.unity.ide.vscode": {
       "version": "1.2.1",
       "depth": 0,
@@ -30,6 +59,16 @@
       "dependencies": {},
       "url": "https://packages.unity.cn"
     },
+<<<<<<< HEAD
+=======
+    "com.unity.postprocessing": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+>>>>>>> homework02
     "com.unity.test-framework": {
       "version": "1.1.16",
       "depth": 0,

@@ -1,7 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!126 &1
+<<<<<<< HEAD
 NavMeshProjectSettings:
+=======
+NavMeshAreas:
+>>>>>>> homework02
   m_ObjectHideFlags: 0
   serializedVersion: 2
   areas:
@@ -69,6 +73,7 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
+<<<<<<< HEAD
   m_LastAgentTypeID: -887442657
   m_Settings:
   - serializedVersion: 2
@@ -89,3 +94,5 @@ NavMeshProjectSettings:
       m_Flags: 0
   m_SettingNames:
   - Humanoid
+=======
+>>>>>>> homework02
