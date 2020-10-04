@@ -74,11 +74,7 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-<<<<<<< HEAD
-    positiveButton: left shift
-=======
     positiveButton: left cmd
->>>>>>> homework02
     altNegativeButton: 
     altPositiveButton: mouse 2
     gravity: 1000

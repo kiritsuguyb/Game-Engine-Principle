@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
-=== Sat Oct  3 13:22:08 2020
-=======
 === Sat Oct  3 19:45:59 2020
->>>>>>> homework02
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -47,8 +43,6 @@ The following packages were added:
   com.unity.textmeshpro@2.1.1
   com.unity.timeline@1.2.16
   com.unity.ugui@1.0.0
-<<<<<<< HEAD
-=======
 
 === Sat Oct  3 20:44:51 2020
 
@@ -61,4 +55,3 @@ The following packages were added:
   com.unity.ext.nunit@1.0.0
   com.unity.ide.visualstudio@1.0.11
   com.unity.postprocessing@2.3.0
->>>>>>> homework02
