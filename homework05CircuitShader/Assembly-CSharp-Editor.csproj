@@ -62,7 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ReferenceAsset\Scripts\Editor\MyLightingShaderGUI.cs" />
+    <Compile Include="Assets\Editor\MyShaderGUI.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -245,6 +245,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:/LEARNING/PostGraduateCourse/GameEnginePrinciple/homework/homework05CircuitShader/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.VR">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
@@ -649,12 +652,7 @@
       <HintPath>E:/LEARNING/PostGraduateCourse/GameEnginePrinciple/homework/homework05CircuitShader/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{70BB9C73-27B9-7EA6-8C64-04929C331ACE}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

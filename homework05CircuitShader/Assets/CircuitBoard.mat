@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CircuitBoard
-  m_Shader: {fileID: 4800000, guid: 977cbee5251132249a58e56b8c475466, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 3d5b7212d4c775f49bf41de019f5dd86, type: 3}
+  m_ShaderKeywords: _DetailNormalTex_ON _MainTex_ON _NormalTex_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6ed2906447f0b4cd8b45795fa000b2e8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -44,11 +44,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
-        m_Texture: {fileID: 2800000, guid: 071affc9b58274e53a04d24be07b8698, type: 3}
+        m_Texture: {fileID: 2800000, guid: a4ce85ee15d9d4f1482777e9745c606a, type: 3}
         m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: cb8292d7b05e24ce2bac28d43938ace1, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MSO:
+        m_Texture: {fileID: 2800000, guid: bdaec9e6ff36f4cbeacf12cce0af0b44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -73,20 +81,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Bumpiness: 1.34
+    - _Bumpiness: 1
+    - _Circuit: 1
     - _ColorMask: 15
     - _Cutoff: 0.5
-    - _DetailBumpiness: -1
+    - _DetailBumpiness: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Eminess: 3.72
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Smoothness: 0.634
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -99,7 +109,9 @@ Material:
     - _UseUIAlphaClip: 0
     - _ZWrite: 1
     m_Colors:
+    - _CircuitTint: {r: 1, g: 0.9285185, b: 0.7311321, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Eminess: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularTint: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
